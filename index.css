@@ -1,0 +1,55 @@
+
+
+input {
+    border-color: none !important;
+}
+
+.main {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+input {
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.lastname {
+    margin-left: 62px;
+}
+
+.email {
+    margin-left: 72px;
+}
+
+.num {
+    margin-left: 28px;
+}
+
+.gen {
+    margin-left: 80px;
+}
+
+.bob {
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    margin-left: 136px;
+    margin-top: -100px;
+margin-bottom: 20px;
+}
+
+
+p {
+    margin-top: 70px !important;
+}
+
+.cit {
+    margin-left: 95px;
+}
+
+.tel {
+    margin-left: 62px;
+}
