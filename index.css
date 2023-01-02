@@ -1,4 +1,11 @@
 
+body {
+    background: url(/img/visa-application-form-documents-cup-coffee-white-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 
 input {
     border-color: none !important;
@@ -6,12 +13,31 @@ input {
 
 .main {
     margin-left: 100px;
-    margin-top: 80px;
+    margin-top: 38px;
 }
 
 input {
     margin-left: 60px;
     margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    transition: .25s all ease-in-out;
+}
+
+input:focus {
+   outline-color: white !important;
+
+}
+
+input:hover {
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+input:hover,
+input:focus {
+  transform: translateY(-0.25em);
 }
 
 .lastname {
@@ -52,4 +78,116 @@ p {
 
 .tel {
     margin-left: 62px;
+}
+
+.stat {
+    margin-left: 90px !important;
+}
+
+.count {
+    margin-left: 70px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px !important;
+}
+
+textarea {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.gendar input{
+    box-shadow: none !important;
+}
+
+.hobbies input {
+    margin-left: 10px ;
+    box-shadow: none;
+}
+
+.hobbies {
+    margin-top: 8px;
+}
+
+.margin {
+    margin-left: 70px !important;
+}
+
+.other {
+    margin-left: 135px !important;
+}
+
+.clss > input {
+    margin-left: 10px ;
+    box-shadow: none;
+}
+
+.quali {
+    margin-left: 40px !important;
+}
+
+.quali-2 {
+    margin-left: 136px !important;
+}
+.last {
+    display: flex;
+    margin-top: 20px;
+}
+
+.last > input {
+    margin-left: 10px;
+}
+
+.last-2 {
+    margin-left: 50px !important;
+}
+
+.last-1 {
+    margin-left: 50px !important;
+}
+
+.last-3 {
+    margin-left: 50px !important;
+}
+
+.last-4 {
+    margin-left: 89px !important;
+}
+
+.last-6 {
+    margin-left: 105px !important;
+}
+
+.right >input {
+    margin-left: 0px;
+    box-shadow: none;
+
+}
+
+.last-5 {
+    margin-left: 11px !important;
+}
+
+button {
+    margin-left: 20px;
+    margin-top: 50px;
+    padding: 10px 30px 10px 30px;
+    transition: .25s all ease-in-out;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+
+
+}
+.btn {
+    margin-left: 350px;
+}
+
+button:hover {
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+button:hover,
+button:focus {
+  transform: translateY(-0.25em);
 }

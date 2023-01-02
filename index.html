@@ -8,6 +8,8 @@
     <title>Student Form</title>
 </head>
 <body>
+    <h1>Student Form</h1>
+
     <div class="main ">
     <div class="name">
         First Name :  <input type="text" placeholder="Your Name" required>
@@ -137,12 +139,55 @@
     </div>
 
     <div class="state">
-        State : <input type="text" placeholder="Your State Name" name="" id="">
+        State : <input type="text" class="stat" placeholder="Your State Name" name="" id="">
     </div>
 
     <div class="country">
-        Country : <input type="text" placeholder="Your Country Name" name="" id="">
+        Country : <input type="text" class="count" placeholder="Your Country Name" name="" id="">
     </div>
+
+    <div class="hobbies">
+       
+        Hobbies : <input class="margin" type="checkbox" name="" id="">
+                  <label for="Drawing">Drawing</label>
+                  <input type="checkbox" name="" id="">
+                  <label for="Drawing">Singing</label>
+                  <input type="checkbox" name="" id="">
+                  <label for="Drawing">Dancing</label>
+                  <input type="checkbox" name="" id="">
+                  <label for="Drawing">Sketching</label> <br>
+                  <input class="other" type="checkbox" name="" id="">
+                  <label for="">Other</label>
+                  <input type="text" placeholder="Exg . Teaching">
+    </div>
+
+    <div class="clss">
+       Qualification :  <input class="quali" type="checkbox" name="" id="">High School(10th)
+                        <input type="checkbox" name="" id="">Higher School(12th) <br>
+                        <input class="quali-2"  type="checkbox" name="" id="">Graduation(Bachelors)
+                        <input type="checkbox" name="" id="">Poat Graduation(Masters) <br>
+                        <input  class="quali-2" type="checkbox" name="" id="">PHD
+    </div>
+
+    <div class="last">
+        <div class="left">
+        Courses <br>
+        Applied For :
+    </div>
+    <div class="right">
+     <input class="last-2" type="checkbox" name="" id="">BCA (Bachelors of the Computer)
+                      <input class="last-3" type="checkbox" name="" id="">B.Com (Bachelors of Commerce) <br>
+                      <input  class="last-1" type="checkbox" name="" id="">B.Sc (Bachelors of Science)
+                      <input class="last-4" type="checkbox" name="" id="">BA (Bachelors of Arts) <br>
+                      <input class="last-1" type="checkbox" name="" id="">MCA (Master of Computer Application)
+                      <input class="last-5" type="checkbox" name="" id="">M.Com (Master of Commerce) <br>
+                      <input class="last-1" type="checkbox" name="" id="">M.Sc (Master of Science)
+                      <input class="last-6" type="checkbox" name="" id="">MA (Master of Arts)
+                    </div>
+    </div>
+
+    <button class="btn">Submit</button>
+    <button>Reset</button>
 
 </div>
 </body>
